@@ -1,0 +1,155 @@
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    background-color: #FF4646;
+    color: #fff;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.body {
+    font-family: 'montserrat';
+}
+.navbar-brand {
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    color: #fff;
+    font-size: 1.25rem;
+
+}
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(22deg);
+    position: relative;
+    left: 30%;
+
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon-hov {
+    color: #ef8172;
+    margin-bottom: 1em;
+}
+.icon-hov:hover {
+    color: #FF4646;
+}
+/* testimonials section */
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials {
+
+    text-align: center;
+    color: #ffff;
+    background-color: #ef8172;
+
+}
+.testimonials-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* press */
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.brand {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:990px) {
+
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform:rotate(0);
+
+    }
+
+}
+/* <!-- Call to Action --> */
+#cta{
+    background-color: #ff4668;
+    text-align: center;
+}
+.cta-line{
+    font-size:3.5rem;
+    font-family: "montserrat";
+    color: #fff;
+  padding: 4% 15%;
+   line-height: 1.5;
+    
+}
+
+/* <!-- Footer --> */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding:4% 15%;
+}
+.share-icon{
+    padding:1%;
+    margin: 20px 10px;
+    font-size: 2rem;
+}
